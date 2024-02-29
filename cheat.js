@@ -1,6 +1,7 @@
 //x = 'ganesh is in vidatt company'
 //console.log(...x)
 
+
 //let date = new Date()
 //
 //let monthName;
@@ -68,4 +69,3 @@ for(let i =1;i<=a;i++){
 }
 
 console.log(output.length)
-
