@@ -80,3 +80,8 @@ console.log(a===10? (a+b==130? true: false) : false)
 //let y = 10;
 //
 //(x > 0 ? (y < 15 ? console.log("Both conditions are true") : console.log("Condition 1 is true, Condition 2 is false")) : console.log("Condition 1 is false"));
+
+
+
+
+
