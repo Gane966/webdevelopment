@@ -1,6 +1,7 @@
 //x = 'ganesh is in vidatt company'
 //console.log(...x)
 
+
 //let date = new Date()
 //
 //let monthName;
@@ -68,8 +69,6 @@
 //}
 //
 //console.log(output.length)
-
-
 
 // @writing if condition in a single line
 let a = 10
