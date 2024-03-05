@@ -81,6 +81,7 @@ console.log(a===10? (a+b==130? true: false) : false)
 //
 //(x > 0 ? (y < 15 ? console.log("Both conditions are true") : console.log("Condition 1 is true, Condition 2 is false")) : console.log("Condition 1 is false"));
 
+
 //
 //    // Function to change text content
 //    function changeText() {
@@ -99,3 +100,4 @@ console.log(a===10? (a+b==130? true: false) : false)
 //        listItems[i].textContent = "New Item " + (i + 1);
 //      }
 //    }
+
