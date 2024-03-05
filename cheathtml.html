@@ -14,7 +14,7 @@
       <li>Item 2</li>
       <li>Item 3</li>
     </ul>
-    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeText()">New Text</button>
   </div>
 
   <script>
@@ -26,20 +26,21 @@
       let container = document.getElementById("container");
       let headertext = container.querySelector("h1");
       let ptext = container.querySelector("p");
-      let litext = container.querySelector("li");
+      let litext = container.querySelectorAll("li");
+       let buttonClick = container.querySelector('button')
 
-     // console.log("ganesh reddy")
-      //console.log(headertext.textContent)
-      if (headertext.textContent === 'Welcome to DOM Practice!'){
+      if (headertext.textContent === "Welcome to DOM Practice!"){
+        buttonClick.textContent = "Old One"
+        headertext.textContent = "This is the new text"
+        ptext.textContent = "this is the new p header text content"
 
-          headertext.textContent = "This is the new text"
-          ptext.textContent = "this is the new p header text content"
-          for(let i = 0; i < litext.length;i++){
+        for(let i = 0; i < litext.length;i++){
 
-            litext[i].textContent = "This is the new listed text " + (i+1)
+          litext[i].textContent = "This is the new listed text " + (i+1)
 
-          }
-          }
+        }
+        }
+
 
       else{
 
