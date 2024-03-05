@@ -80,3 +80,22 @@ console.log(a===10? (a+b==130? true: false) : false)
 //let y = 10;
 //
 //(x > 0 ? (y < 15 ? console.log("Both conditions are true") : console.log("Condition 1 is true, Condition 2 is false")) : console.log("Condition 1 is false"));
+
+//
+//    // Function to change text content
+//    function changeText() {
+//      // Selecting elements by id
+//      var container = document.getElementById("container");
+//      var heading = container.querySelector("h1");
+//      var paragraph = container.querySelector("p");
+//      var listItems = container.getElementsByTagName("li");
+//
+//      // Changing text content
+//      heading.textContent = "New Heading";
+//      paragraph.textContent = "This paragraph text has been changed.";
+//
+//      // Changing list item text content
+//      for (var i = 0; i < listItems.length; i++) {
+//        listItems[i].textContent = "New Item " + (i + 1);
+//      }
+//    }
